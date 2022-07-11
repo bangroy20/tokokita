@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
         <div class="card p-3" style="max-width: 350px; border-radius:20px;">
 
           <div class="card-body" style="background-color:#FFE400; border-radius:15px;">
-            <h4 class="card-title">YOU SHOP </h4><br>
+            <h4 class="card-title">Toko Kita</h4><br>
             <div>
               <img src="../YOU SHOP/file/login.jpg" width="100px" class="rounded-circle">
             </div>
