@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'header.php';  ?>
+<h1>selamat datang user</h1>
+<h2>Di Project toko kita</h2>
+<h3>coba</h3>
 
-<head>
-  <title>Toko Kita</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+<br>
 
-<body>
-  <p>Menyediakan produk pakaian dan sarung </p>
-
-  <h1>isinya isinya</h1>
-
-
-  <h2>lana lana oooooo</h2>
-  <p>yyyy</p>
-  <p>okokokkokoko</p>
-
-</body>
-
-</html>
-<?PHP
-?>
+<?php include 'footer.php';  ?>
