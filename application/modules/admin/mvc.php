@@ -1,1 +1,0 @@
-muat mc untuk admin di folder admin ini
