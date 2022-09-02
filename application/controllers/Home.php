@@ -14,4 +14,12 @@ class Home extends CI_Controller
         $this->load->view('user/index');
         $this->load->view('user/footer');
     }
+
+    public function contact()
+    {
+        $data['active'] = 'contact';
+        $this->load->view('user/header', $data);
+        $this->load->view('user/contact');
+        $this->load->view('user/footer');
+    }
 }

@@ -123,7 +123,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="<?= base_url() ?>" class="nav-item nav-link <?php echo ($active === "home") ? 'active' : '' ?>">Home</a>
                             <a href="<?= base_url() ?>produck" class="nav-item nav-link <?php echo ($active === "produck") ? 'active' : '' ?>">Produck</a>
-                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <a href="detail.html" class="nav-item nav-link">About Us</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link <?php echo ($active === "pages") ? 'active' : '' ?> dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -131,11 +131,11 @@
                                     <a href="<?= base_url() ?>checkout" class="dropdown-item">Checkout</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="<?= base_url() ?>home/contact" class="nav-item nav-link <?php echo ($active === "contact") ? 'active' : '' ?>">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="" class="nav-item nav-link">Login</a>
-                            <a href="" class="nav-item nav-link">Register</a>
+                            <a href="<?= base_url() ?>auth/login" class="nav-item nav-link">Login</a>
+                            <a href="<?= base_url() ?>auth/register" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
                 </nav>
